@@ -3496,6 +3496,13 @@ footer.short-2 .contact-action:hover {
   left: 0px;
   position: absolute;
 }
+.skill-capacity-1 {
+  height: 12px;
+  background: #2f2933;
+  padding: 0px !important;
+  left: 0px;
+  position: absolute;
+}
 .skills-left {
   text-align: right;
 }
@@ -3504,6 +3511,11 @@ footer.short-2 .contact-action:hover {
 }
 .skills-left .skill-capacity {
   background: #2f2933;
+  left: auto;
+  right: 0px;
+}
+.skills-left .skill-capacity-1 {
+  background: #01a2a6;
   left: auto;
   right: 0px;
 }
