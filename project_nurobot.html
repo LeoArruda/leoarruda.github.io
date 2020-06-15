@@ -17,12 +17,13 @@
         <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme-1.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="css/all.css" rel="stylesheet" type="text/css" media="all"/>
         <!--[if gte IE 9]>
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
 		<![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		
     </head>
     <body>
     	<div class="loader">
@@ -64,52 +65,100 @@
 		
 		<div class="main-container">
 		<section class="blog-list-3 bg-white">
-			
 				<div class="blog-snippet-3">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-								<h1>Voice of the Customer<br></h1>
-								<h3 >Clarabridge Data Integration - API<br></h3>
+							<div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2">
+								<h1>Chatbot<br></h1>
+								<h3 >For a domain specific context<br></h3>
 								<p class="lead">
 									<br>
-									<p class="h4"><strong>What is Voice of The Customer (VoC)?</strong><br></p>
-									<p> Voice of the Customer (VoC) is a term that describes your customer’s feedback about their experiences with and expectations for your products or services. It focuses on customer needs, expectations, understandings, and product improvement.
+									<p class="h4"><strong>What is the motivation?</strong><br></p>
+									<p> Considering the domain of students in a college or university, very often they need to contact customer care or student services.
+										People are used to receiving information instantly, however, a call to the customer care or an email to student services might experience no prompt response, in some cases taking days to answer simple questions.
 										<br><br>
-										VoC programs have gained traction over the years and are fast-growing segments of a core business strategy for organizations. They work exceptionally well for brands as customers demand more direct engagement with a firm and because capturing and acting on customer feedback is critical to understanding a prospect’s complex decision-making process.
+										
 									</p>
-									<img src="img/voc.png" alt="Data source integrations diagram" class="center">
-									<hr>
-								</p>
-								
-								
-								<p class="lead">
-									<p class="h4">What were my responsibilities?<br></p>
-									<p> * Builds the entire solution for integrating structured and unstructured data.</p>
-									<p>	* Managed technical project activities between employees and suppliers.</p>
-									<p>	* Provided several consultative inputs to stakeholders.</p>
-									<p> * I was advisor in several technical and strategic decisions.</p>
-									<p>	* Builds integrators and automatic data transfer routines.</p>
-									<hr>
-								</p>
-
-								<p class="lead">
-									<p class="h4">What were my responsibilities?<br></p>
-									<p> And what were my activities with Qualtrics?</p>
-									<img src="img/Qualtrics-logo.png" alt="Data source integrations diagram" class="center">
-
-									<p> Not only collect feedback from customers at every meaningful touchpoint and instantly analyze their comments, but Qualtrics automatically routes recommended actions to the people in the best position to make changes, helping organizations drive continuous improvement.</p>
-									<img src="img/Qualtrics1.gif" alt="Data source integrations diagram" class="">
-									<p>	My main activities orbited the universe of data and integration.
-									 	A large amount of data comes from structured sources, such as surveys. My main responsibility was to integrate these sources correctly and resilient manner.</p>
-									<p>	Coordinated this project activities, several suppliers involved and different sources of data combined.</p>
 									
 									<hr>
 								</p>
-
-
-								<i class="icon icon_calendar"></i><span class="alt-font">Published: 8 MAY 2020</span><br>
 								
+								
+								<p class="lead">
+									<p class="h4">What were the technologies used?<br></p><br>
+									<p> * Python</p>
+									<p>	* Flask</p>
+									<p>	* MongoDB</p>
+									<p>	* Keras</p>
+									<p>	* Rasa Framework</p>
+									<p>	* Serverless Approach (front-end)</p>
+									<p>	* Docker (back-end)</p>
+									<br>
+								</p>
+
+								<hr class="featurette-divider">
+
+								<p class="lead">
+									<h3 class="featurette-heading">PRODUCT DETAILS<br></h3>
+									<p class="muted"> Main Functions</p>
+									<br>
+									<p> Used 20,000 different questions for training.<br>
+										The bot is trained for more than 150 possible scenarios.<br>
+										It can recognize more than 140 different intents.
+										It's now capable to recognize questions, extract intents and memorize contents.
+									</p>
+								</p>
+
+								<hr class="featurette-divider">
+
+								<div class="featurette">
+									<img class="featurette-image pull-right" src="img/chatbot.jpg">
+									<h3 class="featurette-heading">Front-end
+									</h3>
+									<p> The purpose of this main site was to host the chatbot as a service, 
+										providing the initial information on how use and some social information about a college.
+										The complete website designed as a single landing webpage to provide information at a glance.
+									</p>
+								</div>
+
+								<hr class="featurette-divider">
+								<div class="featurette">
+									<img class="featurette-image pull-left" src="img/rasa.png">
+									<h3 class="featurette-heading">RASA framework 
+									</h3>
+									<p class="lead">Rasa was used to speed-up the build of a contextual assistant. An open-source well documented framework contributed to the final success.
+										I took advantage of natural language understanding (NLU) and dialogue management to iterate fast and develop a multi-step conversations machine that remembers context and integrate business logic.
+									</p>
+								</div>
+
+								<div class="featurette">
+									<img class="featurette-image pull-right" src="img/docker.png">
+									<h3 class="featurette-heading">Docker 
+									</h3>
+									<p class="lead"> I choose  an application containerization strategy to better isolate the application as well as to increase the scalability.
+										A load balancer layer can also start or stop chat instances due to some automatic trigger events too.
+									</p>
+								</div>
+
+								
+								<hr class="featurette-divider">
+
+								<br>
+								<br>
+								<h3 class="featurette-heading">About the code:</h3>
+								<br>
+								<p>	- Built with Python</p>
+								<p>	- Ready to deploy to live website</p>
+								<br>
+								<hr class="featurette-divider">
+								<br>
+								<p>Check the code:</p><strong>
+								<a href="https://github.com/LeoArruda/nuRobot" class="icon-block">
+									<i class="fab fa-github"></i> 
+									<span> nuRobot - Chatbot Source Code</span>
+								</a></strong>
+								<hr>
+								<i class="icon icon_calendar"></i><span class="alt-font">Published: 10 JAN 2019</span><br>
 							</div>
 						</div>
 					</div>	
@@ -132,11 +181,10 @@
 				</div>
 			</footer>
 		</div>
-				
 		<script src="https://www.youtube.com/iframe_api"></script>
 		<script src="js/jquery.min.js"></script>
         <script src="js/jquery.plugin.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/skrollr.min.js"></script>
@@ -146,7 +194,8 @@
         <script src="js/twitterFetcher_v10_min.js"></script>
         <script src="js/lightbox.min.js"></script>
         <script src="js/jquery.countdown.min.js"></script>
-        <script src="js/scripts.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/holder.min.js"></script>
     </body>
 </html>
 				

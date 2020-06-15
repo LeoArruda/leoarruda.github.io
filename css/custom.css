@@ -20,4 +20,21 @@ a.icon-block {
   color: gray ;
 }
 
+.featurette {
+  padding-top: 20px;
+  overflow: hidden;
+}
+.featurette-image {
+  width: 500px;
+  height: auto;
+}
+
+.project-image {
+  width: 350px;
+  height: auto;
+  overflow: auto;
+  padding-top: 20px;
+  
+}
+
 
